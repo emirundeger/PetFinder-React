@@ -60,6 +60,7 @@ class Results extends React.Component {
               media={pet.media}
               //`` it's a js thing not react
               location={`${pet.contact.city}, ${pet.contact.state}`}
+              id={pet.id}
             />
           );
         })}
